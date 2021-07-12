@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Bayu Indra Kusuma
+2. Email: bayuindrakusuma05@gmail.com
+3. Sistem Operasi yang digunakan: windows 10
+4. Akun Gitlab/Github: https://github.com/bayuik/
+5. Akun Telegram: bayuik
