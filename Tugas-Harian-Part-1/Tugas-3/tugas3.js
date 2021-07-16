@@ -10,7 +10,7 @@ console.log(kataPertama + " " + kataKedua.charAt(0).toUpperCase() + kataKedua.su
 var panjangPersegiPanjang = "8";
 var lebarPersegiPanjang = "5";
 
-var alasSegitiga= "6";
+var alasSegitiga = "6";
 var tinggiSegitiga = "7";
 
 var kelilingPersegiPanjang = 2 * (parseInt(panjangPersegiPanjang) + parseInt(lebarPersegiPanjang));
@@ -35,19 +35,34 @@ console.log('Kata Keempat: ' + kataKeempat);
 console.log('Kata Kelima: ' + kataKelima);
 
 // Soal 4
-var nilai = 67;
+var nilaiJohn = 80;
+var nilaiDoe = 50;
 
-if(nilai >= 80){
-    console.log('indeksnya A');
-} else if(nilai >= 70 && nilai < 80){
-    console.log('indeksnya B');
-} else if(nilai >= 60 && nilai < 70){
-    console.log('indeksnya C');
-} else if(nilai >= 50 && nilai < 60){
-    console.log('indeksnya D');
-} else if(nilai < 50){
-    console.log('indeksnya E');
+if (nilaiJohn >= 80) {
+    console.log("nilai John adalah A")
+} else if (nilaiJohn >= 70 && nilaiJohn < 80) {
+    console.log("nilai John adalah B")
+} else if (nilaiJohn >= 60 && nilaiJohn < 70) {
+    console.log("nilai John adalah C")
+} else if (nilaiJohn >= 50 && nilaiJohn < 60) {
+    console.log("nilai John adalah D")
+} else {
+    console.log("nilai John adalah E")
 }
+
+
+if (nilaiDoe >= 80) {
+    console.log("nilai Doe adalah A")
+} else if (nilaiDoe >= 70 && nilaiDoe < 80) {
+    console.log("nilai Doe adalah B")
+} else if (nilaiDoe >= 60 && nilaiDoe < 70) {
+    console.log("nilai Doe adalah C")
+} else if (nilaiDoe >= 50 && nilaiDoe < 60) {
+    console.log("nilai Doe adalah D")
+} else {
+    console.log("nilai Doe adalah E")
+}
+
 
 
 // Soal 5
@@ -55,7 +70,7 @@ var tanggal = 05;
 var bulan = 12;
 var tahun = 2000;
 
-switch(bulan){
+switch (bulan) {
     case 1:
         console.log(tanggal + ' Januari ' + tahun);
         break;
