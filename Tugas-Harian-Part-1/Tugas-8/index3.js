@@ -8,7 +8,7 @@ const filterBook = _ => {
 
 filterBook();
 
-async function bookPromise(isColorful, page) {
+let bookPromise = async (isColorful, page) => {
     try {
         let result = await filterBooksPromise(isColorful, page)
         console.log(result)

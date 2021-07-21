@@ -1,6 +1,6 @@
-function filterBooksPromise(colorful, amountOfPage) {
-    return new Promise(function (resolve, reject) {
-        var books = [{
+let filterBooksPromise = (colorful, amountOfPage) => {
+    return new Promise((resolve, reject) => {
+        let books = [{
                 name: "shinchan",
                 totalPage: 50,
                 isColorful: true
@@ -24,7 +24,7 @@ function filterBooksPromise(colorful, amountOfPage) {
         if (amountOfPage >= 40) {
             resolve(books.filter(x => x.totalPage >= amountOfPage && x.isColorful == colorful));
         } else {
-            var reason = new Error("Maaf buku di bawah 40 halaman tidak tersedia")
+            let reason = new Error("Maaf buku di bawah 40 halaman tidak tersedia")
             reject(reason);
         }
     });

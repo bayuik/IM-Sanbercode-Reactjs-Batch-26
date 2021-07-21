@@ -1,5 +1,5 @@
 let readBooks = (time, book, callback) => {
-    console.log(`saya membaca ${book.name}`)
+    console.log(`saya membaca ${book.name}`);
     setTimeout( _ => {
         let sisaWaktu = 0
         if (time >= book.timeSpent) {

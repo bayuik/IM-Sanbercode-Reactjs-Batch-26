@@ -1,4 +1,4 @@
-let readBooks = require('./callback.js')
+let readBooks = require('./callback.js');
 
 let books = [{
         name: 'LOTR',
