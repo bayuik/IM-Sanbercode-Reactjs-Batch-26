@@ -1,0 +1,38 @@
+div:first-child {
+    margin-top: 50px;
+}
+.container {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-left: 100px;
+}
+
+.nama {
+    margin-right: 50px;
+}
+
+.daftarItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.label {
+    margin-right: 85px;
+    margin-top: 85px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="submit"]{
+    border-radius: 10px;
+    background-color: #fff;
+}
