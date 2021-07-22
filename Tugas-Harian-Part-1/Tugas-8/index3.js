@@ -13,7 +13,7 @@ let bookPromise = async (isColorful, page) => {
         let result = await filterBooksPromise(isColorful, page)
         console.log(result)
     } catch(err) {
-        console.log("Maaf buku di bawah 40 halaman tidak tersedia")
+        console.log(err.message)
     }
 }
 
