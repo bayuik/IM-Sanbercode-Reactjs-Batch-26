@@ -2,7 +2,7 @@ import './tugas9.css';
 
 export default function Tugas9(){
     let daftarItem = ["Semangka", "Jeruk", "Nanas", "Salak", "Anggur"];
-    let data = daftarItem.map((item) => {
+    let data = daftarItem.map(item => {
         return (
             <label>
                 <input type="checkbox" value={item} />
