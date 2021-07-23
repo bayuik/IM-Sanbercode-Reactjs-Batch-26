@@ -1,0 +1,22 @@
+table {
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+thead {
+    background-color: #aaa;
+}
+
+td {
+    background-color: #ff7f50;
+}
+
+.namaBuah {
+    padding-right: 230px;
+}
+
+.harga, .berat {
+    padding-right: 100px;
+}
