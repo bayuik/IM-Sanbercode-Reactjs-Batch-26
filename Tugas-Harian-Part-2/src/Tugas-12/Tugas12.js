@@ -121,7 +121,7 @@ class Tugas12 extends Component {
                     </div>
                     <div className="containerForm">
                         <label>Berat Total(dalam gram):</label>
-                        <input required type="number" name="inputBerat" onChange={this.handleChange} value={this.state.inputBerat} />
+                        <input required min="2000" type="number" name="inputBerat" onChange={this.handleChange} value={this.state.inputBerat} />
                     </div>
                     <input type="submit" value="submit" />
                 </form>
