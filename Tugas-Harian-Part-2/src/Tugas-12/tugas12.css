@@ -1,0 +1,51 @@
+.container12 {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid grey;
+}
+
+td {
+    padding: 10px 35px;
+}
+
+td:first-child {
+    padding: 5px;
+}
+
+.edit {
+    margin-right: 10px;
+}
+
+.containerForm{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    font-weight: bold;
+}
+
+form {
+    border: 1px solid grey;
+    padding: 20px;
+    /* clear: both; */
+    overflow: hidden;
+}
+
+input[type="submit"]{
+    float: right;
+    margin-top: 20px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
