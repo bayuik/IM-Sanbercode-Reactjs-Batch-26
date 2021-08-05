@@ -1,0 +1,39 @@
+section {
+  top: 20px;
+  padding-top: 21px;
+}
+
+#konten {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.section {
+  padding: 40px 50px;
+  width: auto;
+}
+
+
+.card {
+  margin: 0;
+  width: 210px;
+  margin-left: 95px;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color:#E8F6EF;
+  font-family: "Slabo 27px", serif;
+  margin: 0px;
+}
+
+header {
+  background-color: #E8F6EF;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1;
+}
